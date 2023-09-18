@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza Hearth", "Pizza Hearth.csproj", "{6429CE2B-2A70-4D29-9573-25584B20333B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6429CE2B-2A70-4D29-9573-25584B20333B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6429CE2B-2A70-4D29-9573-25584B20333B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6429CE2B-2A70-4D29-9573-25584B20333B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6429CE2B-2A70-4D29-9573-25584B20333B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95750203-304C-4AD9-B79E-475F33576350}
+	EndGlobalSection
+EndGlobal
