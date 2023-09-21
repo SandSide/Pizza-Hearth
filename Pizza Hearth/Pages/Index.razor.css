@@ -1,11 +1,26 @@
 ﻿body {
-
+    margin-left: 100px;
 }
 
-.cricle {
-    height: 100px;
-    width: 100px;
+.circle {
+    position:absolute;
+    height: 100%;
+    width: 100%;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    top:-50%;
+    margin: 0;
+}
+
+.pizza-circle {
+    height: 10rem;
+    width: 10rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.test{
+    background-color: forestgreen;
 }
