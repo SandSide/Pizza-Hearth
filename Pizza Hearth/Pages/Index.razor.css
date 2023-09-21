@@ -1,0 +1,11 @@
+﻿body {
+
+}
+
+.cricle {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
