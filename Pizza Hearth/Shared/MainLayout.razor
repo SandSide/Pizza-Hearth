@@ -2,18 +2,52 @@
 
 <PageTitle>Pizza Hearth</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<header class="app-header">
+
+    <div class="container">
+        <nav class="navbar">
+            <img src="img/pizza.png" class="img-fluid" alt="pizza hearth icon">
+            <a href="#" class="navbar-brand">Pizza Hearth</a>
+            <img src="img/pizza.png" class="img-fluid" alt="shopping cart">
+        </nav>
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+@*    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-1 col-md-1 justify-content-center">
+                        <img src="img/pizza.png" class="img-fluid" alt="pizza hearth icon">
+                    </div>
+                    <div class="col">
+                        <h1 class="app-name text-left">Pizza Hearth</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+            <div class="col-1">
+                <img src="img/pizza.png" class="img-fluid" alt="shopping cart">
+            </div>
+        </div>
+    </div>*@
+
+
+    @*    <div class="sidebar">
+            <NavMenu />
         </div>
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+        <main>
+            <div class="top-row px-4">
+                <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            </div>
+
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>*@
+
+</header>
+<div class="container">
+    @Body
 </div>

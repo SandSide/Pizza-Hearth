@@ -66,3 +66,17 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+    .app-header{
+        background: orange;
+    }
+
+.app-name{
+    color: green;
+}
+
+.icon{
+    width:25px;
+    height:25px;
+}
