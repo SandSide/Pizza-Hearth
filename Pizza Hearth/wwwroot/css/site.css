@@ -67,3 +67,22 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+    .pizza-card{
+        min-width: 20rem;
+        max-width: 30rem;
+        min-height: 10rem;
+        max-height: 15rem;
+        margin-top: 2rem;
+        background-color: red;
+        border-radius: 10px;
+    }
+
+    .menu-heading{
+        font-family: "chewy-regular";
+        margin: 2rem 0 2rem 0;
+        text-align: center;
+        height: 100%;
+        color: red;
+    }
